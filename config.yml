@@ -1,0 +1,20 @@
+input:
+  training: training.data
+  #testing:  testing.data
+  # forest:   classification_random_forest.yml
+
+#Forest parameters
+# forest:
+#   forest_size: 30 #how many trees
+#   SNP_sample_size_mtry: 1531 #mtry
+#   SNP_total_count: 4593
+#   node_min_size: 5
+#   var_importances: YES
+  
+#Forest parameters
+forest:
+  forest_size: 30 #how many trees
+  SNP_sample_size_mtry: 1531 #mtry
+  var_importances: YES
+  SNP_total_count: 4593
+  node_min_size: 5
